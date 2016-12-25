@@ -1,0 +1,26 @@
+body {
+  background: #ddd;
+}
+.main {
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px black;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.text-center {
+  text-align: center;
+  font-family: Arial;
+}
+.tooltip {
+  position: absolute;
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+  max-width: 200px;
+}
